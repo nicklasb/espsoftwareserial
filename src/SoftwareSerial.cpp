@@ -21,7 +21,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 #include "SoftwareSerial.h"
-#include <Arduino.h>
+
 
 #ifndef ESP32
 uint32_t SoftwareSerial::m_savedPS = 0;
